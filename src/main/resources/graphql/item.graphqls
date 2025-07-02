@@ -1,0 +1,10 @@
+type Item {
+    name: String
+    description: String
+}
+
+extend type Query {
+    items: [Item]
+    items2: [Item]
+
+}
